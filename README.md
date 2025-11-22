@@ -7,20 +7,20 @@
 
 ## 📋 Description
 
-Système d'estimation de distance en temps réel basé sur YOLOv8-Face et OpenCV. Ce projet permet de détecter des visages, d'estimer leur distance par rapport à la caméra et de générer des vidéos annotées. Il est conçu pour des applications comme les interfaces interactives, la sécurité ou l'analyse comportementale.
+Système d'estimation de distance en temps réel basé sur YOLOv8-Face et OpenCV. Ce projet permet de détecter des visages et d'estimer leur distance par rapport à la caméra . Il est conçu pour des applications comme les interfaces interactives, la sécurité ou l'analyse comportementale.
 
 ## Demo 🎥
 
 Affichage de démonstrations du système :
 
 ![Demo 1](demo/1.gif)
-![Demo 2](demo/2.gif)
+
 
 ## ✨ Fonctionnalités principales
 
 - **Détection de visages :** Utilisation de YOLOv8-Face pour une détection précise
 - **Estimation de distance :** Calcul basé sur la largeur des yeux et la focale de la caméra
-- **Tracking multi-objets :** Suivi persistant via ByteTrack
+- **Tracking  :** Suivi persistant via ByteTrack
 - **Visualisation :** Annotations en temps réel avec OpenCV et CVZone
 - **Export vidéo :** Génération de vidéos annotées avec MoviePy
 
@@ -30,7 +30,7 @@ Affichage de démonstrations du système :
 
 ```bash
 Python 3.8+
-CUDA (optionnel, pour accélération GPU)
+
 ```
 
 ### Installation rapide
@@ -70,25 +70,15 @@ pandas>=1.3.0
 python main.py
 ```
 
-### Modes d'utilisation
 
-#### Mode Estimation de Distance (par défaut)
+####  Estimation de Distance 
 ```python
 # Dans main.py
-estimator = DistanceEstimator(video_path, model_path, output_path)
+estimator = DistanceEstimator(model_path, output_path)
 ```
 - Détection des visages
 - Estimation des distances
 - Génération de vidéos annotées
 
-#### Mode Tracking Simple
-```python
-# Dans main.py
-estimator = DistanceEstimator(video_path, model_path, output_path, tracking_only=True)
-```
-- Tracking des visages sans estimation de distance
-- Affichage des IDs détectés en temps réel
-
----
 
 ⭐ **N'hésitez pas à star le projet s'il vous a aidé !** ⭐
