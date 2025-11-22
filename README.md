@@ -72,10 +72,7 @@ python main.py
 
 
 ####  Estimation de Distance 
-```python
-# Dans main.py
-estimator = DistanceEstimator(model_path, output_path)
-```
+
 - Détection des visages
 - Estimation des distances
 - Génération de vidéos annotées
