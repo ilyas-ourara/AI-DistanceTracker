@@ -13,7 +13,7 @@ Système d'estimation de distance en temps réel basé sur YOLOv8-Face et OpenCV
 
 Affichage de démonstrations du système  :
 
-![Demo 1](demo/1.gif)
+![Demo 1](demo/demo.gif)
 
 
 ## ✨ Fonctionnalités principales

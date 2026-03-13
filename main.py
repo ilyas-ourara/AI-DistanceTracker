@@ -1,7 +1,7 @@
 from distance import DistanceEstimator
 import os
 
-model_path= "models/yolov8s_face_lindevs.onnx"  
+model_path= "models/yolov8s_face_lindev.onnx"  
 output_path='output/out.mp4'
 
 
