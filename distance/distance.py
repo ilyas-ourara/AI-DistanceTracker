@@ -11,7 +11,7 @@ import os
 
 
 
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+os.environ["KMP_DUPLICATE_LIB_OK"] = 'TRUE'
 
 class DistanceEstimator:
     def __init__(self,model_path,output_video) :
