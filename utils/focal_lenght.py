@@ -11,7 +11,7 @@ ______________________ en  utilisant la largeur reelle entre les yeux et la dist
  ______________________on utilise la formule : f= (w*d)/W
 """
 
-cap = cv2.VideoCapture("test/input.jpeg")
+cap = cv2.VideoCapture('test/input.jpeg')
 
 detector = FaceMeshDetector(maxFaces=1) 
 
